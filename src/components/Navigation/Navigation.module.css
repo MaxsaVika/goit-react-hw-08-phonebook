@@ -1,3 +1,31 @@
+nav{
+  display: flex;
+  gap: 20px;
+}
+
+.navLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.navLogoIcon{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: #03e9f4;
+}
+
+.navLogoName{
+  color: #fff;
+  /* font-weight: 400; */
+  text-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+
 .link {
     display: inline-block;
     text-decoration: none;

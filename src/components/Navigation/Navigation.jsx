@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { useAuth } from 'hooks';
+import { MdContactPhone } from 'react-icons/md';
 import css from './Navigation.module.css';
 
 export const Navigation = () => {
@@ -11,6 +12,11 @@ export const Navigation = () => {
 
   return (
     <nav>
+      <div className={css.navLogo}>
+        <MdContactPhone className={css.navLogoIcon} />
+        <h4 className={css.navLogoName}>PHONEBOOK</h4>
+      </div>
+
       <NavLink className={getClassName} to="/">
         Home
       </NavLink>
