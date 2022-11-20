@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchContacts } from 'redux/contacts/operations';
 
-import styles from './Contacts.module.css';
+import css from './Contacts.module.css';
 
 export default function Contacts() {
   const dispatch = useDispatch();
@@ -17,11 +17,11 @@ export default function Contacts() {
 
   return (
     <>
-      <div className={styles.section}>
-        <h1 className={styles.title}>PHONEBOOK APP</h1>
+      <div className={css.section}>
+        <h1 className={css.title}>PHONEBOOK</h1>
 
         <FormAddContact />
-        <h2 className={styles.title}>Contacts</h2>
+        <h2 className={css.title}>Contacts</h2>
         <Filter />
         <ContactsList />
       </div>

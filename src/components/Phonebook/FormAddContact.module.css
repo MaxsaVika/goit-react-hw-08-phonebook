@@ -2,6 +2,10 @@
     padding: 20px;
     max-width: 480px;
   }
+
+  .FormInput label{
+    color: #03e9f4;
+  }
   
   .FormInput__input {
     width: 100%;
@@ -14,13 +18,9 @@
     transition: background-color 0.5s ease-in-out;
   }
   
-  .FormInput__input:focus {
-    background-color: #e4ffe6;
-  }
-  
   .FormButton {
     width: 100%;
-    background-color: #4caf50;
+    background-color: #2f8d92fd;
     color: white;
     font-size: 16px;
     padding: 8px 0px;
@@ -32,5 +32,5 @@
   }
   
   .FormButton:hover {
-    background-color: #56ca5c;
+    background-color: #03e9f4;
   }
